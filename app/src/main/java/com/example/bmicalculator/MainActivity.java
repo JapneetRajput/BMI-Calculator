@@ -75,5 +75,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        mass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Sup Motherfuckers!", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
